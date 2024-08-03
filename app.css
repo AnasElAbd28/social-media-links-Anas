@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+#name{
+    color: #f9f9f9;
+    font-size: 23px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+#location{
+    color: hsl(75, 94%, 57%);
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+#bio{
+    color: #f9f9f9c2;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight:400;
+}
+
+#profile-picture{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#card{
+    
+    margin: 300px auto;
+    background-color: hsl(0, 0%, 12%);
+    width: 330px;
+    height: auto;
+    border-radius: 15px;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    margin-bottom: 15px;
+    width: 280px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f9f9f9;;
+    text-align: center;
+    background-color: #333333;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover{
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}
+@media (min-width: 1440px){
+
+    #card{
+        width: 400px;
+    }
+    li{
+        width: 300px;
+    }
+
+}
